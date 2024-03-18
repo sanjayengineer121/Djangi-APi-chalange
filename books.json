@@ -1,0 +1,72 @@
+{
+  "data": {
+    "books": [
+      {
+        "id": "1",
+        "name": "THE WOMEN",
+        "author": "Kristin Hannah",
+        "image_path": "static/media/9781250178633.jpg",
+        "description": "In 1965, a nursing student follows her brother to serve during the Vietnam War and returns to a divided America.\r\n\r\n",
+        "Genre": "Society",
+        "Language": "english",
+        "Subject(s)": "Motivation",
+        "Bookshelf": "Love"
+      },
+      {
+        "id": "2",
+        "name": "THE HUNTER",
+        "author": "Tana French",
+        "image_path": "static/media/9780593493434.jpg",
+        "description": "The life that a Chicago P.D. retiree has built in Ireland with a local woman and her daughter comes under threat.",
+        "Genre": "fiction",
+        "Language": "French",
+        "Subject(s)": "Advenchure",
+        "Bookshelf(s)": "NA"
+      },
+      {
+        "id": "3",
+        "name": "NEVER TOO LATE",
+        "author": "Danielle Steel",
+        "image_path": "static/media/9780593498408.jpg",
+        "description": "A widow makes a fresh start in New York City and connects with her movie-star neighbor as they help others after a crisis.",
+        "Genre": "Story",
+        "Language": "English",
+        "Subject(s)": "Story of success",
+        "Bookshelf(s)": "Good"
+      },
+      {
+        "id": "4",
+        "name": "THE WAGER",
+        "author": "David Grann",
+        "image_path": "static/media/9780385534260.jpg",
+        "description": "The survivors of a shipwrecked British vessel on a secret mission during an imperial war with Spain have different accounts of events.",
+        "Genre": "Adventure",
+        "Language": "Spanish",
+        "Subject(s)": "mission",
+        "Bookshelf(s)": "NA"
+      },
+      {
+        "id": "5",
+        "name": "HAPPY PLACE",
+        "author": "Emily Henry",
+        "image_path": "static/media/9780593441275.jpg",
+        "description": "A former couple pretend to be together for the sake of their friends during their annual getaway in Maine.",
+        "Genre": "Happy",
+        "Language": "ENglish",
+        "Subject(s)": "Friendship",
+        "Bookshelf(s)": "Love"
+      },
+      {
+        "id": "6",
+        "name": "THE TEACHER",
+        "author": "Freida McFadden",
+        "image_path": "static/media/9781728296210.jpg",
+        "description": "A math teacher at Caseham High suspects there is more going on behind a scandal involving a teacher and a student.",
+        "Genre": "Society",
+        "Language": "ENG-UK",
+        "Subject(s)": "scandal involving a teacher",
+        "Bookshelf(s)": "NA"
+      }
+    ]
+  }
+}
