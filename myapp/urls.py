@@ -7,6 +7,7 @@ from .views import get_books_by_language
 from .views import get_books_by_genre
 from .views import get_books_by_genandlang
 from .views import add_book
+from .views import get_booksBYLIMT 
 
 urlpatterns = [
     path('', home, name='home'),
@@ -16,5 +17,6 @@ urlpatterns = [
     path('getbooks/lang/', get_books_by_language, name='get_books_by_language'),
     path('getbooks/genr/', get_books_by_genre, name='get_books_by_genre'),
     path("getbooks/filter/", get_books_by_genandlang, name="get_books_by_genandlang"),
-    path("api/add_book/", add_book, name="add_book")
+    path("api/add_book/", add_book, name="add_book"),
+    path('api/getbooks/',get_booksBYLIMT,name="get_booksBYLIMT")
 ]

@@ -55,6 +55,22 @@ def get_books_by_genre(request):
     
     return JsonResponse({'books': filtered_books})
 
+def get_booksBYLIMT(request):
+    offset = int(request.GET.get('offset', 0))
+    limit = int(request.GET.get('limit', 20))
+
+    all_books = load_data()["data"]["books"]
+
+    books_subset = all_books[offset:offset + limit]
+
+    has_more = len(all_books) > offset + limit
+
+    response_data = {
+        'books': books_subset,
+        'has_more': has_more
+    }
+
+    return JsonResponse(response_data)
 
 @csrf_exempt 
 def add_book(request):
